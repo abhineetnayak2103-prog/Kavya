@@ -12,7 +12,7 @@ import discord
 from discord.ext import commands
 
 import config
-from utils.database import Database
+from database.py import Database
 from utils import embeds
 
 logging.basicConfig(level=logging.INFO, format="[%(asctime)s] %(levelname)s: %(message)s")
